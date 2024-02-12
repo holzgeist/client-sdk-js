@@ -5,7 +5,7 @@ import type {
   TrackPublishDefaults,
   VideoCaptureOptions,
 } from './track/options';
-import { AudioPresets, ScreenSharePresets, VideoPresets } from './track/options';
+import { AudioPresets, ScreenSharePresets } from './track/options';
 
 export const defaultVideoCodec = 'vp8';
 
@@ -28,7 +28,7 @@ export const audioDefaults: AudioCaptureOptions = {
 };
 
 export const videoDefaults: VideoCaptureOptions = {
-  resolution: VideoPresets.h720.resolution,
+  // resolution: VideoPresets.h720.resolution,
 };
 
 export const roomOptionDefaults: InternalRoomOptions = {
